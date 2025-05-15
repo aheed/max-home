@@ -14,8 +14,8 @@ export const siteConfig = {
 
 export const SEO = {
   Separator: '|',
-  SiteName: 'Titan Core',
-  defaultDescription: 'A modern, high-performance Astro JS theme',
+  SiteName: 'Blue Max Hangar',
+  defaultDescription: 'Blue Max in the 21st century',
 };
   
 export const blogSetting = {

@@ -15,12 +15,12 @@ import RecentPosts from '@components/sections/RecentPosts.astro';
 import heroImage from '../assets/images/home/default-hero-2.jpg';
 import styleGuideImage from '../assets/images/home/developer.jpg';
 
-const seoTitle = "Modern, High-Performance Astro Theme";
-const seoDescription = "A modern, high-performance Astro theme for developer portfolios and documentation sites.";
+//const seoTitle = "Blue Max 2025";
+const seoDescription = "Blue Max in the 21st century. Will it fly?";
 
 const heroContent = {
-    title: 'The Foundation for Beautiful Astro JS Websites',
-    description: 'Titan Core is a minimal, performance-focused Astro JS theme that serves as the perfect foundation for your next web project. Built with clean code and modern best practices, it\'s designed to be extended and customized to your specific needs.',
+    title: 'Blue Max in the 21st century. Will it fly?',
+    description: "What would happen if you take the best C64 game from 1983 and make a naive port with a modern game engine? Can't be anything less than interesting.",
     buttons: [
         {
             text: 'Get Started',
@@ -132,7 +132,7 @@ const recentPostsSection = {
 }
 ---
 
-<Layout footerCta={FooterCta} title={seoTitle} description={seoDescription}>
+<Layout footerCta={FooterCta} description={seoDescription}>
     <Hero content={heroContent} />
     <Features content={featuresSection} padding="base" background="light" />
     <RecentPosts content={recentPostsSection} background="base" padding="base" postsToShow={3} category="Theme Usage"/>
