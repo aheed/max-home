@@ -27,7 +27,7 @@ const isCurrentPage = (link: string) => {
             <Logo />
             <nav class="relative flex items-center gap-2 lg:gap-8" aria-label="Site Navigation">
                 {/* Desktop Menu */}
-                <ul class="hidden lg:flex lg:gap-8 items-center">
+                <ul class="flex lg:gap-8 items-center">
                     {
                         headerMenu.map((item, index) => (
                             <li class="relative group">
@@ -90,8 +90,8 @@ const isCurrentPage = (link: string) => {
                     }
                 </ul>
 
-                <Button href={ctaButton.link} variant="primary">{ctaButton.name}</Button>
-
+                <!-- <Button href={ctaButton.link} variant="primary">{ctaButton.name}</Button> -->
+                <!--
                 {/* Mobile Menu Button */}
                 <button
                     class="mobile-menu-button relative z-30 p-2 border-none cursor-pointer bg-transparent lg:hidden"
@@ -180,6 +180,7 @@ const isCurrentPage = (link: string) => {
                         <Button href={ctaButton.link} variant="ghostLight">{ctaButton.name} </Button>
                     </div>
                 </div>
+                 -->
             </nav>
         </div>
     </div>
