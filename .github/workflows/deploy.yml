@@ -43,7 +43,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: Deploy to S3
-        run: aws s3 sync --exclude webbuild3d/ --delete ./dist/ s3://${{ secrets.BUCKET_ID }}
+        run: aws s3 sync --exclude webbuild3d/* --delete ./dist/ s3://${{ secrets.BUCKET_ID }}
   
   deploy:
     runs-on: ubuntu-latest
