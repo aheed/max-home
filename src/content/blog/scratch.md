@@ -14,28 +14,41 @@ seo:
 
 # Cast (Hall of fame?)
 
-## Max
+## Blue Max
 The hero
+
+Oh yes, there is a backstory. From the original game manual:
+
+*\"You are Max Chatsworth. Known by your mates as 'The Blue Max' you
+wear the very name of the medal given by the Axis powers to shoot
+down your plane!  Now, you must earn the title.  To be successful
+you  must  make a final assault on three specially marked targets
+within the city.  You have only one aircraft and very little time
+to accomplish this most difficult of missions.\"*
+
 
 ### Zaxxon
   The original isometric villain. This is the enemy boss robot from the eponymously titled 1981 arcade game.
   Blue Max was never forgiven for the axonometric perspective ripoff.
   Zaxxon finally had his rocket launchers repaired (both of them, including the one that never worked even in the 80s).
-  Thusly rearmed, Zaxxon is now returning from his 2.5-dimensional realm for isometric vengeance.
-  (And he is packing more missiles than ever).
+  Thusly rearmed, Zaxxon is now returning from his 2.5-dimensional realm for isometric vengeance. And he is packing a seemingly endless supply of missiles.
 
-### Red Baron
-  The most famous of aces.
+### Manfred von Richthofen
+  AKA The Red Baron, the most famous of aces.
   No WWI aerial combat game could possibly be complete without an appearance by this guy.
   Although this was a real life person his ghost is still summoned for game level boss duty. And he is not happy about it.
 
+### King Kong
+Hobbies include skyscraper climbing. Prefers blondes. What is a big ape doing here? Nobody knows, but he seems to be a magnet for biplane fighter action.
+
 ### Bob Polin
+
 
 ### Peter Adams
 
 
 ### Mystery boss
-  All we have seen so far is a plane shadow. Appears when you complete a level objective. I will be impressed if you can tell what model aircraft this elusive villain is piloting.
+  All we have seen so far is a plane shadow. Appears when you least expect it. What aircraft is this elusive villain piloting?
 
 
 Why Blue Max? Why now?
