@@ -40,7 +40,16 @@ export const categories: Category[] = [
     slug: 'seo',
     description: 'Search engine optimization strategies and best practices'
   },
-  
+  {
+    name: 'Retro',
+    slug: 'retro',
+    description: 'Retro games, technology and nostalgia'
+  },
+  {
+    name: 'Progress',
+    slug: 'progress',
+    description: 'Project progress and updates'
+  },
 ];
 
 // Helper function to get category by slug

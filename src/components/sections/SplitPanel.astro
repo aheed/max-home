@@ -11,7 +11,7 @@ interface Content {
     subheadline?: string;
     description?: string;
     image: {
-        src: string | any;
+        src?: string | any;
         alt?: string;
     };
     buttons?: {
@@ -63,7 +63,7 @@ const textColor = getTextColor(background);
             {
                 imagePosition === 'left' && (
                     <div class="relative aspect-[4/3] overflow-hidden rounded-[var(--border-radius-base)] border border-black">
-                        <Image
+                        {src && <Image
                             {src}
                             {alt}
                             width={800}
@@ -71,7 +71,7 @@ const textColor = getTextColor(background);
                             class="w-full h-full object-cover"
                             quality={80}
                             format="webp"
-                        />
+                        />}
                     </div>
                 )
             }
@@ -114,13 +114,13 @@ const textColor = getTextColor(background);
 
             {/* Image Side (right position) */}
             {
-                imagePosition === 'right' && (
+                src && imagePosition === 'right' && (
                     <div
                         class="relative aspect-[4/3] overflow-hidden rounded-[var(--border-radius-base)] border border-black"
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
-                        <Image
+                        {src && <Image
                             {src}
                             {alt}
                             width={800}
@@ -128,7 +128,7 @@ const textColor = getTextColor(background);
                             class="w-full h-full object-cover"
                             quality={80}
                             format="webp"
-                        />
+                        />}
                     </div>
                 )
             }

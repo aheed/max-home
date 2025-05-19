@@ -51,7 +51,7 @@ let filteredPosts = allPosts
 <section class:list={['relative', bgColor, paddingClass]}>
     <div class="site-container px-4">
         {
-            (content?.title || content?.description) && (
+            (content?.eyebrow || content?.title || content?.description) && (
                 <div class="max-w-2xl mb-12">
                     {content?.eyebrow && <Eyebrow text={content.eyebrow} background={background} />}
                     {content?.title && (
