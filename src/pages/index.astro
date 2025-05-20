@@ -12,8 +12,10 @@ import CtaBanner from '@components/sections/CtaBanner.astro';
 import Faqs from '@components/sections/Faqs.astro';
 import { faqLists } from '@data/faqs';
 import RecentPosts from '@components/sections/RecentPosts.astro';
-import heroImage from '../assets/images/home/default-hero-2.jpg';
+//import heroImage from '../assets/images/home/default-hero-2.jpg';
+import heroImage from '../assets/images/main-hero.jpg';
 import styleGuideImage from '../assets/images/home/developer.jpg';
+import twoDthreeDImage from '../assets/images/2d3d.jpg';
 
 //const seoTitle = "Blue Max 2025";
 const seoDescription = "Blue Max in the 21st century. Will it fly?";
@@ -53,7 +55,7 @@ const FooterCta = {
     eyebrow: "Join The Community",
     title: ' Start Building With Titan Core Today',
     description: 'Titan Core is open-source and constantly improving. Join our community of developers to contribute, get support, or showcase what you\'ve built.',
-    hideCta: false,
+    hideCta: true,
     button: {
         text: 'Download Titan Core',
         link: 'https://github.com/rspisarski/titan-core',
@@ -66,7 +68,7 @@ const whatSection = {
     headline: "What?",
     description: "This project is a variant of the classic video game Blue Max. More than merely a port, there are extra levels and quirks not found in the original game.",
     image: {
-        src: styleGuideImage,
+        src: twoDthreeDImage,
         alt: "Featured image"
     },
 }
@@ -74,24 +76,43 @@ const whatSection = {
 const whySection = {
     //eyebrow: "Design System",
     headline: "Why?",
-    description: "It's about curiosity. Why do we play games? What makes a game exciting? \
-As a kid you don't ask such questions. You just play. Video games were amazing and the C64 was a thing of magic. \
-At 50+ it's different. I'm not much of a gamer. I don't keep up with the latest releases and I do not own any console. \
-Many game genres do not appeal to me. Idle games? You earn resources by waiting. `<irony>`Great.`</irony>` \
-Recently I browsed for free games on Steam and I was not impressed. One game was clicking a banana. That was it, just click it and score points. It was not moving or anything. Not challenging in any way. That game has fans! \
-Were the games actually better in the 80s or is just me being old and grumpy? Is it possible to feel the same excitement again as we once did? \
-I think creating a game to your own liking is the ultimate gaming experience. It's a great way to play and to learn marketable skills at the same time. \
-I remember a conversation back in the C64 days while playing a racing game with a friend (it might have been Pole Position).  \
-He wanted guns to shoot the opponent cars. I argued it was a sports game so of course you can't have guns. Now I think he was right. It would have been awesome to get a power-up out of the blue that would let you shoot your opponents! It's a game, let's make it fun. \
-Why Blue Max? \
-Of all C64 releases, Blue Max was certainly not the most advanced or the best looking graphically. It's usually not mentioned on top 10 lists, but it's my personal favourite. It was so well crafted and it had a wonderful mix of challenge and mystery. And there was more than one approach to playing a level, you could strafe at low altitude or stay safe and drop bombs from above. \
-\n \n \
-So that's the game I'm going for: Blue Max with unreasonable additions, built on a modern game engine. \
-I want cameos from other games and movies. I want anachronisms. I want references to 80s cultural phenomena. I want sarcastic comments about the absurdity of finding friendly airstrips deep in enemy territory. No use trying to hide plot holes or defects. We are not fooling anyone so let's emphasize those things instead. And have fun.",
+    description: "It's about curiosity. Always eager to learn something. I want to rediscover the joy and beauty of simple video games. Perhaps some general understanding of what makes a game exciting comes to light in the process. This project is not for profit.",
     image: {
         //src: styleGuideImage,
         alt: "Featured image"
     },
+    buttons: [
+        {
+            text: "About this project",
+            link: "/blog/why",
+            variant: "primary" as const
+        }
+    ]
+}
+
+const howSection = {
+    headline: "How?",
+    description: "The game is developed in Unity. The current version is built for WebGL and is available online. It is very much a work in progress. In the end I might just rewrite the whole game for another game engine.",
+    image: {
+        //src: styleGuideImage,
+        alt: "Featured image"
+    },
+}
+
+const whoSection = {
+    headline: "Who?",
+    description: "I am a semi retired SW engineer with many years of professional dev experience. Embedded, frontend, backend, testing, management. I have seen technologies and trends come and go. My experience in game development is quite limited. That is one of the reasons I'm having a go with this project.",
+    image: {
+        //src: styleGuideImage,
+        alt: "Featured image"
+    },
+    buttons: [
+        {
+            text: "Github",
+            link: "https://github.com/aheed",
+            variant: "primary" as const
+        }
+    ]
 }
 
 const styleGuideSection = {
@@ -171,8 +192,10 @@ const recentPostsSection = {
     <RecentPosts content={recentPostsSection} background="base" padding="base" postsToShow={3} category="Progress"/>
     <SplitPanel content={whatSection} imagePosition="right" background="light" padding="base" />
     <SplitPanel content={whySection} imagePosition="right" background="light" padding="base" />
-    <SplitPanel content={styleGuideSection} imagePosition="right" background="light" padding="base" />
-    <!--<CtaBanner content={mainCta} variant="contained" background="light" paddingBottom="base" />
+    <SplitPanel content={howSection} imagePosition="right" background="light" padding="base" />
+    <SplitPanel content={whoSection} imagePosition="right" background="light" padding="base" />
+    <!--<SplitPanel content={styleGuideSection} imagePosition="right" background="light" padding="base" />
+    <CtaBanner content={mainCta} variant="contained" background="light" paddingBottom="base" />
     <Logos content={logosSection} background="base" padding='small'/>
     <Stats content={sideBySideStats} background='dark' padding="base"/>
     <Faqs content={faqsSection} background="base" padding="base" /> -->

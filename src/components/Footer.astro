@@ -24,7 +24,7 @@ const { footerCta } = Astro.props;
 const defaultCta = {
   title: "Ready to get started?",
   description: "Join us today and transform your digital presence with our innovative solutions.",
-  hideCta: false,
+  hideCta: true,
   button: {
     text: "Contact Us",
     link: "/contact",
@@ -77,7 +77,7 @@ const currentYear = new Date().getFullYear();
       </div>
     </div>
 
-    <div class="mt-8 flex flex-col md:flex-row justify-between items-center">
+    <!--<div class="mt-8 flex flex-col md:flex-row justify-between items-center">
       <div class="text-body-dark text-sm">
         © {currentYear} {siteConfig.companyName}. All rights reserved.
       </div>
@@ -96,6 +96,6 @@ const currentYear = new Date().getFullYear();
           ))}
         </ul>
       </nav>
-    </div>
+    </div> -->
   </div>
 </footer>

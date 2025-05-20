@@ -13,7 +13,7 @@ seo:
 ---
 
 # Why?
-It's about curiosity. Why do we play games? What makes a game exciting?
+Why do we play games? What makes a game exciting?
 As a kid you don't ask such questions. You just play. Video games were amazing and the C64 was a thing of magic.
 
 At 50+ it's different. I'm not much of a gamer. I don't keep up with the latest releases and I do not own any console.
@@ -32,5 +32,10 @@ Of all C64 releases, Blue Max was certainly not the most advanced or the best lo
 I remember a conversation back in the C64 days while playing a racing game (it might have been Pole Position) with a friend. He wanted guns to shoot the opponent cars. I argued it was a sports game, of course you can't have guns. Now I think he was right. It would have been awesome to get a power-up out of the blue that would let you shoot your opponents! It's a game, let's make it fun.
 
 So that's the game I'm going for: Blue Max with unreasonable additions, built on a modern game engine.
-I want cameos from other games and movies. I want anachronisms. I want references to 80s cultural phenomena. I want sarcastic comments about the absurdity of finding friendly airstrips deep in enemy territory. No use trying to hide plot holes or defects. We are not fooling anyone so let's emphasize those things instead. And have fun.
+I want cameos from other games and movies. I want anachronisms. I want references to 80s cultural phenomena. I want sarcastic comments about the absurdity of finding friendly airstrips deep in enemy territory. No use trying to hide plot holes or defects. We are not fooling anyone so let's emphasize those things instead. And have fun.  
+  
+  
 
+> "The pleasure is to play  
+> It makes no difference what you say"  
+> *— Ace of Spades, Motörhead*
