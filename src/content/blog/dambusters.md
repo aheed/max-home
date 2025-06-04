@@ -26,7 +26,7 @@ To your aid, or maybe just distraction, you have altitude indicator spotlights m
 This level is still under construction.
 
 ## Real life mission
-Inspired by the famous real life WWII [Dambusters Raid](https://en.wikipedia.org/wiki/Operation_Chastise).
+Inspired by the famous real life WWII [Dambusters Raid](https://en.wikipedia.org/wiki/Operation_Chastise). Hydroelectric dams were attacked by allied bombers using bombs bouncing on water.
 
 ### In popular culture
 The 1955 movie [The Dam Busters](https://www.imdb.com/title/tt0046889/?ref_=ext_shr_lnk) was based on the true story.

@@ -1,6 +1,6 @@
 export const siteConfig = {
-  companyName: 'Titan Core',
-  siteUrl: 'https://titan-core.com',
+  companyName: 'Propspin',
+  siteUrl: 'https://propspin.org',
   Socials: {
       xSocial: 'https://x.com/astrodotbuild',
       Github: 'https://github.com/withastro',
