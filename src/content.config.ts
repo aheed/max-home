@@ -37,6 +37,8 @@ const team = defineCollection({
             linkedinUsername: z.string().optional(),
             xSocial: z.string().url().optional(),
             xSocialUsername: z.string().optional(),
+            bluesky: z.string().url().optional(),
+            blueskyUsername: z.string().optional(),
             github: z.string().url().optional(),
             githubUsername: z.string().optional(),
             order: z.number().default(999),

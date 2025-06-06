@@ -5,8 +5,8 @@ import { Menu, X, ChevronDown } from 'lucide-astro';
 import Button from '@components/ui/Button.astro';
 
 const ctaButton = {
-    name: 'Contact Us',
-    link: '/contact',
+    name: 'Contact',
+    link: '/team/acedev',
 };
 
 // Get the current path to determine active menu item
@@ -90,7 +90,7 @@ const isCurrentPage = (link: string) => {
                     }
                 </ul>
 
-                <!-- <Button href={ctaButton.link} variant="primary">{ctaButton.name}</Button> -->
+                <Button href={ctaButton.link} variant="primary">{ctaButton.name}</Button>
                 <!--
                 {/* Mobile Menu Button */}
                 <button

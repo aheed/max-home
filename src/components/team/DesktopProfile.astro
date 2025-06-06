@@ -1,6 +1,7 @@
 ---
 import { Github, Linkedin, Mail } from 'lucide-astro';
 import X from '@components/icons/X.astro';
+import Bluesky from '@components/icons/Bluesky.astro';
 import { Image } from 'astro:assets';
 
 interface Props {
@@ -63,6 +64,20 @@ const { entry } = Astro.props;
                         >
                             <X size={16} />
                             {entry.data.xSocialUsername && <span>@{entry.data.xSocialUsername}</span>}
+                        </a>
+                    )
+                }
+                {
+                    entry.data.bluesky && (
+                        <a
+                            href={entry.data.bluesky}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="flex items-center gap-2 text-body-base hover:text-primary transition-colors text-small"
+                            aria-label="Bluesky Profile"
+                        >
+                            <Bluesky size={18} />
+                            {entry.data.blueskyUsername && <span>@{entry.data.blueskyUsername}</span>}
                         </a>
                     )
                 }
