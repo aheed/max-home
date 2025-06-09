@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  env_var: ${{vars.PUBLIC_SITE_URL}}
+  PUBLIC_SITE_URL: ${{vars.PUBLIC_SITE_URL}}
 
 jobs:
   build:
@@ -15,8 +15,7 @@ jobs:
     steps:
       - name: Print variables
         run: |
-          echo "repository variable : $PUBLIC_SITE_URL"
-          echo "variable from shell environment : $env_var"
+          echo "variable from shell environment : $PUBLIC_SITE_URL"
       - name: Checkout
         uses: actions/checkout@v4
       - name: Configure AWS Credentials
