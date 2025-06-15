@@ -50,6 +50,11 @@ export const categories: Category[] = [
     slug: 'progress',
     description: 'Project progress and updates'
   },
+  {
+    name: 'Unity',
+    slug: 'unity',
+    description: 'Unity game engine usage'
+  },
 ];
 
 // Helper function to get category by slug

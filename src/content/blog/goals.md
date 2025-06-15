@@ -4,7 +4,7 @@ excerpt: ""
 featuredImage: "./images/max_sharp.png"
 publishDate: "2025-05-20"
 publish: true
-categories: ["Tech", "Progress"]
+categories: ["Tech", "Progress", "Unity"]
 
 seo:
   title: ""

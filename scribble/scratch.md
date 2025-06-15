@@ -34,6 +34,7 @@ In conclusion the answer must be why not?
 Everything should be scriptable. For so many reasons. I did not mention this among the project goals, it's just something I take for granted with any project.
 I was a bit shocked to find there is no easy way to automate builds with Unity. It's point-and-click. That would be OK for a toy, not for a serious development environment.
 There is a service named "Unity Build Automation" provided by Unity. This a managed service. An attempt to lock Unity game developers into Unity's own eco system. Using any other kind of automation seems discouraged.
-Who wants "Unity Version Control"? Not me. The appears to be a free plan for Unity Devops, but I'm still not interested.
+Who wants "Unity Version Control"? Not me. There appears to be a free plan for Unity Devops, but I'm still not interested.
 
 Since collision detection in a 3D level obviously require objects to overlap in all 3 dimensions, we can not take the same liberties in 3D as the 2D scene.
+
